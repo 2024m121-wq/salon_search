@@ -349,5 +349,3 @@ columns_order=['store_id','name_salon','slncatch',
                'price','seats',
                'address','access','link_detail']
 merged_df[columns_order].to_csv('merged.csv', index=False)
-
-streamlit run "salon_analysis (1).py"
